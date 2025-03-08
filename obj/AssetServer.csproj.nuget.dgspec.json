@@ -45,9 +45,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "EPPlus": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[7.6.1, )"
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
