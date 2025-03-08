@@ -41,3 +41,4 @@ D:\temp\AssetServer\AssetServer\AssetServer\obj\Debug\net8.0\refint\AssetServer.
 D:\temp\AssetServer\AssetServer\AssetServer\obj\Debug\net8.0\AssetServer.pdb
 D:\temp\AssetServer\AssetServer\AssetServer\obj\Debug\net8.0\AssetServer.genruntimeconfig.cache
 D:\temp\AssetServer\AssetServer\AssetServer\obj\Debug\net8.0\ref\AssetServer.dll
+D:\temp\AssetServer\AssetServer\AssetServer\bin\Debug\net8.0\reailway.json

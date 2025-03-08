@@ -9,8 +9,11 @@ namespace AssetServer.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        private readonly string IconsPath = "https://net8-web-api-test.up.railway.app/file/iconss/";
-        private readonly string AssetsPath = "https://net8-web-api-test.up.railway.app/file/assetss/";
+        //private readonly string IconsPath = "https://net8-web-api-test.up.railway.app/file/iconss/";
+        //private readonly string AssetsPath = "https://net8-web-api-test.up.railway.app/file/assetss/";
+
+        private readonly string IconsPath = "http://localhost/iconss/";
+        private readonly string AssetsPath = "http://localhost/assetss/";
 
         private readonly string _filePath = Path.Combine(Directory.GetCurrentDirectory(), "Book1.xlsx");
 
