@@ -33,7 +33,15 @@ namespace AssetServer.Controllers
             category.Assets.ForEach(c =>
             {
                 c.icon = IconsPath + c.icon;
-                if (!string.IsNullOrEmpty(c.file)) c.file = AssetsPath + c.file;
+                if (!string.IsNullOrEmpty(c.file))
+                {
+                    string[] files = c.file.Split(',');
+                    for(int i = 0; i < files.Length; i++)
+                    {
+                        files[i] = AssetsPath + files[i];
+                    }
+                    c.file = string.Join(',',files);
+                }
             });
 
             return Ok(new[] { category });
