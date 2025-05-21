@@ -6,11 +6,11 @@ namespace AssetServer.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        //private readonly string IconsPath = "https://avatars-backend-production.up.railway.app/static/iconss/";
-        //private readonly string AssetsPath = "https://avatars-backend-production.up.railway.app/static/assetss/";
+        private readonly string IconsPath = "https://avatars-backend-production.up.railway.app/static/iconss/";
+        private readonly string AssetsPath = "https://avatars-backend-production.up.railway.app/static/assetss/";
 
-        private readonly string IconsPath = "http://localhost:9000/iconss/";
-        private readonly string AssetsPath = "http://localhost:9000/assetss/";
+        // private readonly string IconsPath = "http://localhost:9000/iconss/";
+        // private readonly string AssetsPath = "http://localhost:9000/assetss/";
 
         private readonly string _filePath = Path.Combine(Directory.GetCurrentDirectory(), "Book1.xlsx");
 
