@@ -1,9 +1,0 @@
-{
-    "services": [
-      {
-        "name": "dotnet-service",
-        "type": "docker",
-        "dockerfile": "Dockerfile"
-      }
-    ]
-  }
